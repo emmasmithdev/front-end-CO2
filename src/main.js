@@ -21,13 +21,13 @@ Vue.use(VueMq, {
   }
 })
 
-// new Vue({
-//   template: `
-//     <.footprint :grid-template-columns="$mq | mq({
-//       phone: 2,
-//       tablet: 3,
-//       laptop: 4
-//     })">
-//     </.footprint>
-//   `,
-// })
+new Vue({
+  template: `
+    <.footprint="$mq | mq({
+      phone: 2,
+      tablet: 3,
+      laptop: 4
+    })">
+    </.footprint>
+  `,
+})
