@@ -24,11 +24,11 @@ Vue.use(VueMq, {
 
 new Vue({
   template: `
-    <footprint :column="$mq | mq({
+    <carbon-form :column="$mq | mq({
       phone: 2,
       tablet: 3,
       laptop: 4
     })">
-    </footprint>
+    </carbon-form>
   `,
 })
