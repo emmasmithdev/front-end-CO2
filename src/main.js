@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import HighchartsVue from 'highcharts-vue'
+import VueMq from 'vue-mq'
 
 Vue.use(HighchartsVue)
 Vue.use(require('vue-moment'));
