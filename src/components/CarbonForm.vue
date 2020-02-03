@@ -178,8 +178,8 @@ export default {
     margin: 5px;
     text-align: center;
     border: solid 2px black;
-    flex: 1 1 0px;
-    width: 0;
+    flex-grow: 1;
+    flex-basis: 0;
   }
   .submit {
     display: block;
