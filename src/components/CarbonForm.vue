@@ -168,7 +168,7 @@ export default {
     text-align: center;
   }
   .footprint {
-    display: grid;
+    display: flex;
     grid-template-columns: auto auto auto auto;
   }
   .grid-item {
