@@ -170,7 +170,8 @@ export default {
   .footprint {
     display: flex;
     /* grid-template-columns: auto auto auto auto; */
-    flex-flow: row wrap;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .grid-item {
     padding: 5px;
