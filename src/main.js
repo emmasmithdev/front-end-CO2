@@ -23,7 +23,7 @@ Vue.use(VueMq, {
 
 new Vue({
   template: `
-    <.footprint="$mq | mq({
+    <.footprint :grid-template-column="$mq | mq({
       phone: 2,
       tablet: 3,
       laptop: 4
