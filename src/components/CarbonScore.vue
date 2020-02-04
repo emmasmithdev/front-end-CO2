@@ -94,7 +94,7 @@ button {
     background-color: rgb(102, 128, 127);
     border: 2px solid black;
     color: white;
-    padding: 16px 25px;
+    padding: 16px 20px;
     text-decoration: none;
     cursor: pointer;
     font-size: 15px;
