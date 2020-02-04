@@ -120,7 +120,6 @@ button {
   }
   .buttons {
     display: flex;
-    max-width: 90%;
   }
 
 
