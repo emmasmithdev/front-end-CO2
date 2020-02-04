@@ -169,7 +169,6 @@ export default {
   }
   .footprint {
     display: flex;
-    /* grid-template-columns: auto auto auto auto; */
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -178,8 +177,8 @@ export default {
     margin: 5px;
     text-align: center;
     border: solid 2px black;
-    flex: 1 1 0px;
-    width: 0;
+    /* flex: 1 1 0px;
+    width: 0; */
   }
   .submit {
     display: block;
